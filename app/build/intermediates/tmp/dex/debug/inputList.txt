@@ -1,0 +1,2 @@
+D:\PMDM\apps\FichaFutbolSQLite\app\build\intermediates\classes\debug
+D:\PMDM\apps\FichaFutbolSQLite\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-8ae80ec9ca15475094c94594a01eb3d664562746.jar

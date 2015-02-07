@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="TemaLayout" parent="AppTheme">
+        <item name="android:background">@drawable/degradado</item>
+    </style>
+    <style name="TemaBoton" parent="AppTheme">
+        <item name="android:background">@drawable/botones_bonitos</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:width">250dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="TemaBotonPequeño" parent="AppTheme">
+        <item name="android:background">@drawable/botones_bonitos</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="TemaTextoCentrado" parent="AppTheme">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="TemaTexto" parent="AppTheme">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="TemaTextEdit" parent="AppTheme">
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+</resources>

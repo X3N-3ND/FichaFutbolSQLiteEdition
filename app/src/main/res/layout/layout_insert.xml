@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/TemaLayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Nombre:"
+                    android:id="@+id/textView"
+                    style="@style/TemaTexto"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Apellido 1:"
+                    android:id="@+id/textView4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="0dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Apellido 2:"
+                    android:id="@+id/textView5"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="DNI:"
+                    android:id="@+id/textView6"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="0dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Edad:"
+                    android:id="@+id/textView7"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="0dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Sexo:"
+                    android:id="@+id/textView8"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="0dp" />
+
+                <TextView
+                    style="@style/TemaTexto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Categoría:"
+                    android:id="@+id/textView9"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nombre"
+                    style="@style/TemaTextEdit" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/apellido1"
+                    style="@style/TemaTextEdit" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/apellido2"
+                    style="@style/TemaTextEdit" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dni"
+                    style="@style/TemaTextEdit" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edad"
+                    style="@style/TemaTextEdit" />
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="5dp">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hombre"
+                        android:id="@+id/hombre"
+                        android:layout_gravity="center_horizontal" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mujer"
+                        android:id="@+id/mujer"
+                        android:layout_gravity="center_horizontal" />
+                </RadioGroup>
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoria"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Insertar"
+                android:id="@+id/insertYadeYa"
+                android:layout_gravity="center_horizontal"
+                style="@style/TemaBoton" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

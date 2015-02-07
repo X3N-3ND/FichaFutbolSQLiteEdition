@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FichaFutbol</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="categoria">
+        <item>Prebenjamin</item>
+        <item>Benjamin</item>
+        <item>Alevin</item>
+        <item>Infantil</item>
+        <item>Cadete</item>
+        <item>Juvenil</item>
+    </string-array>
+
+
+</resources>
